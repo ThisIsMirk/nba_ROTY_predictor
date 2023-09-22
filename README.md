@@ -1,4 +1,4 @@
-# nba_ROTY_predictor
+# predicting-roty-nba
 Contributors: Mirza Abubacker and Shaheryar Haider
 
 NBA Rookie of the Year Prediction
