@@ -19,4 +19,3 @@ Project Structure
     models/: Stores the trained machine learning models.
     scripts/: Python scripts for data scraping and other utilities.
     reports/: Interactive reports and visualizations created with Power BI.
-    README.md: This README file.
