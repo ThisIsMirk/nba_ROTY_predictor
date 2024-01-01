@@ -20,3 +20,6 @@ This repository contains a project that predicts the NBA Rookie of the Year usin
     - scripts/: Python scripts for data scraping and other utilities.
     - reports/: Interactive reports and visualizations created with Power BI.
     - README.md: This README file.
+
+# License
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the content, but ensure you comply with the terms of the license.
