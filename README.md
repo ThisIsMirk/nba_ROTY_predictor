@@ -10,7 +10,6 @@ This repository contains a project that predicts the NBA Rookie of the Year usin
     - Python: Used for data scraping, data preprocessing, and machine learning.
     - BeautifulSoup: Used for web scraping NBA player statistics.
     - Excel: Used for data cleaning and preprocessing.
-    - Power BI: Used for data visualization and creating interactive reports.
     - Visual Studio: Used for development and documenting code.
     - Scikit-Learn: Used for machine learning and model evaluation.
 
