@@ -15,20 +15,26 @@ This repository contains a project that predicts the NBA Rookie of the Year usin
     - Scikit-Learn: Used for machine learning and model evaluation.
 
 # Project Structure
-    - data/: Contains the raw and preprocessed data files.
-    - models/: Stores the trained machine learning models.
+    - data/: Contains the raw and preprocessed data files. The data was web-scrapped from RealGM. 
+    - models/: Stores the trained machine learning models. Using a forest classifier model
     - scripts/: Python scripts for data scraping and other utilities.
-    - reports/: Interactive reports and visualizations created with Power BI.
     - README.md: This README file.
 
 # Model Training and Evaluation
-    - The script uses a Random Forest classifier to predict the NBA Rookie of the year. 
+    - The script uses a Random Forest classifier to predict the NBA Rookie of the Year. 
     - Model accuracy is evaluated on a test set, and the results are printed to the console.
 
-# Findings & Challenges
-Throughout working in this project, we were faced with a few challenges and hurdles such as incomplete data, outliers, and various  code breaks. 
-- For incomplete data, we had to import information from different key sources to fill in our missing gaps.
-- For the outliers, we were able to 
+# Challenges
+While working on this project, we faced a few challenges and hurdles such as incomplete data, outliers, and various  code breaks. 
+    - For incomplete data, we had to import information from different key sources to fill in our missing gaps.
+    - For the outliers, we were able to manage to double-check the data with the different sources to have the correct data set on board.
+    - With the code breaks and errors, we were able to use stack overflow and fix up any issues with the code.
+  
+# Findings
+
+# Conclusion
+After running our machine learning model, our model predicts that Victor Wembanyama will be the Rookie of the Year in 2024.
+  
 
 # License
 This project is licensed under the MIT License. Feel free to use, modify, and distribute the content, but ensure you comply with the terms of the license.
