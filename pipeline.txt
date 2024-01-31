@@ -1,0 +1,23 @@
+Machine learning algorithms:
+Decision Tree
+KNN
+SVM
+---------------
+Classification vs Clustering 
+
+
+- Tell the algorithm importance of ranking numbers 1 to 5, which in this case is categories. The categories having descending values of importance 1 to 5. 
+ (watch youtube video) Normalize ranking column so that 1 is greater than 5. 
+
+
+- How does it measure the importance of each feature and how it impacts the placement of the players in each ranking? 
+- Measure importance of each feature and then give each feature a weightage depending on the importance
+- We test this algorithm with the test data using the weighted features and see what it predicts -->
+- The algorithm should give each player from the current rookies list a ranking out of the total number of players based on the calculations done by the algorithm
+using the weightage factor. This calculation is done for each player and in the end we can sort this list to find out the rookie of the year. 
+
+
+Measure feature importance:
+- F1 score, precision, recall, confusion matrix
+- feature_importances_ attribute for Random Forests
+- SHAP

@@ -1,5 +1,7 @@
 # predicting-roty-nba
-Contributors: Mirza Abubacker and Shaheryar Haider
+Contributors: Mirza Abubacker and Shaheryar Haider\
+Tools used: Python (BeautifulSoup, sklearntree), PowerBI\
+(This README was not generated using an LLM, instead it was written by hand by Mirza) 
 
 ## NBA Rookie of the Year Prediction
 
@@ -34,3 +36,4 @@ After running our machine learning model, our model predicts that Victor Wembany
 
 # License
 This project is licensed under the MIT License. Feel free to use, modify, and distribute the content, but ensure you comply with the terms of the license.
+
