@@ -71,12 +71,12 @@ for year in years:
     mydata.to_csv(f'college_reg_stats.csv', index=False)
     print(mydata)
 ```
-Our webscraping model is encased in a for loop that iterates through pages on the RealGM website. After adding the RealGM link to our Source variable we called on the BeautifulSoup function to find an html lines with the 'th' tag as this contained data within the tables on the page. You can also see how we created our column names using the headers.append function.  
+Our webscraping model is encased in a for loop that iterates through pages on the RealGM website. After adding the RealGM link to our Source variable we called on the BeautifulSoup function to find html lines with the 'th' tag as this contained data within the tables on the page. You can also see how we created our column names using the headers.append function.  
 
 Another for loop allowed us to iterate through each row in the table looking for additional tags such as 'tr' and 'td' to specify the data that we wanted. Then, we appended each scan and added it to our data frame. Finally we exported this data to a csv file, allowing us to get started on the machine learning model of this project. 
 
 # Model Training and Evaluation
-We used the Random Forest Classifier as our method of machine learning for this model. The reason why we used a classifier model is because our target variable being 'Ranking' (1-5) is a categorical variable and not numeric. 
+We used the Random Forest Classifier as our method of machine learning for this model. The reason we used a classifier model is because our target variable being 'Ranking' (1-5) is a categorical variable. 
 
 ```
 # Load the data from the CSV file
@@ -133,10 +133,10 @@ print(f'Recall: {recall}')
 print(f'F1-Score: {f1}')
 print(classification_report(y_test, predictions))
 ```
-We fit the data into the model and ran a feature_importances calculation to get a good look at our attribute's contribution to the prediction. We then visualized this data using matplotlib's horizontal histogram graph, which you find in the 'Findings' section below. Afterwards we ran some test metrics to evaluate the performance of our model on the test data. You can find the scores of these results in the 'Findings' section below. 
+We fit the data into the model and ran a feature_importances calculation to get a good look at our attribute's contribution to the prediction. We then visualized this data using matplotlib's horizontal histogram graph, which you will see in the 'Findings' section below. Afterwards we ran some test metrics to evaluate the performance of our model on the test data. You can also find the scores of these results in the 'Findings' section below. 
 
 # Challenges
-During the course of our project, we encountered several challenges and obstacles that demanded creative solutions. In particular, we grappled with incomplete data, outliers, and intermittent code breaks. Addressing these issues required a combination of resourceful problem-solving and collaborative efforts.  
+During the course of our project, we encountered several challenges and obstacles that demanded creative solutions. In particular, we dealt with incomplete data, outliers, and intermittent code breaks. Addressing these issues required a combination of resourceful problem-solving and collaborative efforts.  
 
 Dealing with incomplete data necessitated sourcing information from various key repositories to bridge the gaps in our dataset. Additionally, encountering code breaks and errors prompted us to leverage platforms like Stack Overflow, enabling us to troubleshoot and rectify issues efficiently.  
 
