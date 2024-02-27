@@ -149,16 +149,6 @@ We find that TRB% (Total Rebound Percentage) has the highest importance value in
 
 Honorable mentions go to the next three advanced stats: ORB% (Offensive Rebound Percentage), BLK% (Blocks Percentage), and AST% (Assists Percentage)
 
-## Precision, Recall, and F1 Score
-After tweaking our model by removing various attributes depending on their feature_importances, as well as cleaning up the data, including trimming unwanted spaces and filling in missing data, we achieved scores for each of the main categories as follows:  
-Precision: 85%  
-Recall: 79%  
-F1 Score: 82%  
-
-# Conclusion
-After running our machine learning model, our model predicts that Victor Wembanyama will be the Rookie of the Year in 2024 with an 81% confidence.
-  
-
 # License
 This project is licensed under the MIT License. Feel free to use, modify, and distribute the content, but ensure you comply with the terms of the license.
 
