@@ -148,7 +148,3 @@ One of the most formidable challenges we encountered during the data cleaning pr
 We find that TRB% (Total Rebound Percentage) has the highest importance value in this model, followed by eFG% (Effective Field Goal Percentage) telling us that the model puts importance on forwards for winning ROTY awards. 
 
 Honorable mentions go to the next three advanced stats: ORB% (Offensive Rebound Percentage), BLK% (Blocks Percentage), and AST% (Assists Percentage)
-
-# License
-This project is licensed under the MIT License. Feel free to use, modify, and distribute the content, but ensure you comply with the terms of the license.
-
